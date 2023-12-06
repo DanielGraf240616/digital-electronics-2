@@ -1,16 +1,18 @@
 # Smart plant watering system and data logger
 
 ### Team members
- 
-* Member 1 (responsible for ...)
-* Member 2 (responsible for ...)
-* Member 3 (responsible for ...)
+Graf Daniel, Leikep Filip, Lipenský Lukáš, Kubeš Václav
 
 ## Theoretical description and explanation
-The main part of the project is an Arduiono UNO board with AtMega 328P chip. The main features of the projects are automative watering (represented by a relay), data logger and an LCD which shows data in real time such as time, air and soil humidity.
+The goal of this project was to design an embedded system which would use Arduino UNO board together with other external modules to create an automatic plant watering system. The modules which were used are air humidity sensor, soil moisture sensor and a module with RTC and EEPROM. An LCD panel is attached to display time, air humidity and soil moisture value.
 
 
 ## Hardware description of demo application
+air humidity sensorDHT12
+capacitive soil moisture sensor V1.2
+LCD SH1106
+RTC DS3231
+EPROM AT24C32
 
 Insert descriptive text and schematic(s) of your implementation.
 
